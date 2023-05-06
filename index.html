@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="mobile">
+    <div class="urna">
+        <div class="tela">
+            <div class="d-1">
+                <div class="d-1-left">
+                    <div class="d-1-1">
+                        <span>SEU VOTO PARA</span>
+                    </div>
+                    <div class="d-1-2">
+                        <span>VEREADOR</span>
+                    </div>
+                    <div class="d-1-3">
+                        <div class="numero pisca"></div>
+                         <div class="numero"></div>
+                    </div>
+                    <div class="d-1-4">
+                        Nome: FULA DE TAL <br>
+                        Partido: QQQ <br>
+                        Vice-Prefeito: FULANA DE TAL <br>
+                    </div>
+                </div>
+                <div class="d-1-right">
+                    <div class="d-1-image">
+                        <img src="images/38111.jpg">
+                        Prefeito
+                    </div>
+                    <div class="d-1-image small">
+                        <img src="images/77222.jpg">
+                        Vice-Prefeito
+                    </div>
+                </div>
+            </div>
+            <div class="d-2">
+                aperte a tela: <br/>
+                CONFIRMA para CONFIRMAR este voto <br/>
+                CORRIGE para REINICIAR este voto
+            </div>
+
+        </div>
+        <div class="teclado">
+            <div class="teclado--linha">
+                <div class="teclado--botao" onclick="botoes.clicou('1')">1</div>
+                <div class="teclado--botao" onclick="botoes.clicou('2')">2</div>
+                <div class="teclado--botao" onclick="botoes.clicou('3')">3</div>
+            </div>
+            <div class="teclado--linha">
+                <div class="teclado--botao"onclick="botoes.clicou('4')">4</div>
+                <div class="teclado--botao"onclick="botoes.clicou('5')">5</div>
+                <div class="teclado--botao"onclick="botoes.clicou('6')">6</div>
+            </div>            
+            <div class="teclado--linha">
+                <div class="teclado--botao"onclick="botoes.clicou('7')">7</div>
+                <div class="teclado--botao"onclick="botoes.clicou('8')">8</div>
+                <div class="teclado--botao"onclick="botoes.clicou('9')">9</div>
+            </div>            
+            <div class="teclado--linha">
+                <div class="teclado--botao"onclick="botoes.clicou('0')">0</div>
+            </div>            
+            <div class="teclado--linha">
+                <div class="teclado--botao botao--branco" onclick="botoes.branco()">BRANCO</div>
+                <div class="teclado--botao botao--corrige" onclick="botoes.corrige()">CORRIGE</div>
+                <div class="teclado--botao botao--confirma" onclick="botoes.confirma()">CONFIRMA</div>
+            </div>            
+        </div>
+        <div class="candidatos">
+            <h3>Deputados</h3>
+            <p>38111 - Xaveco</p>
+            <p>77222 - Do contra</p>
+            <h3>Prefeitos</h3>
+            <p>84 - Titi</p>
+            <p>99 - Marina</p>
+
+        </div>
+    </div>
+    <script src="etapas.js"></script>
+    <script src="java.js"></script>
+
+</body>
+</html>
