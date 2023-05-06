@@ -13,5 +13,5 @@ Projeto que mesclou conhecimentos de estruturas condicionais em JavaScript, anim
 
 Disponível em:
 
-https://sevengusta.github.io/Projeto_Calculadora_Contabil/
+https://sevengusta.github.io/Projeto_Urna_Eletronica/
 
