@@ -27,7 +27,7 @@ let etapas = [
         candidatos: [
             {
                 numero: '99',
-                nome: 'Titi',
+                nome: 'Marina',
                 partido: 'PCC - Partido dos Criativos Comilões',
                 vice: 'Magali',
                 fotos:[
