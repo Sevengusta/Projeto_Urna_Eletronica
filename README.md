@@ -1,6 +1,6 @@
 # Projeto_Urna_Eletronica
 <h3>Objetivo do projeto:</h3>
-Projeto que mesclou conhecimentos de estruturas condicionais em JavaScript, animações em CSS. O foco principal do projeto criação de estruturas condicionas para que os objetos realizassem interagissem com a tela.  
+Projeto que mesclou conhecimentos de estruturas condicionais em JavaScript, animações em CSS. O foco principal do projeto criação de estruturas condicionas para que os objetos realizassem interagissem com a tela.  <br>
 
 
 
